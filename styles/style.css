@@ -1,3 +1,16 @@
+/************ GOOGLE FONT ************/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+/************************/
+body {
+  font-family: "Poppins", sans-serif;
+}
+footer {
+  background-color: #0b0d17;
+  color: #d9dbe1;
+  padding: 100px;
+  margin-top: 70px;
+}
+
 .appbtn {
   display: inline-block;
   padding: 25px 100px;
@@ -18,4 +31,18 @@
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
+}
+
+h6 {
+  margin-bottom: 12px;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.copywrite {
+  font-weight: 200;
+}
+
+.row {
+  align-items: center;
 }
